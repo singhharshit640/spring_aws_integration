@@ -8,11 +8,11 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.studies</groupId>
+	<artifactId>springaws</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-aws-integration</name>
+	<description>Demo project for Integrating Spring with AWS cloud</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

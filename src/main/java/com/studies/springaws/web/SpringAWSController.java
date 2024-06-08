@@ -1,4 +1,4 @@
-package com.example.demo.web;
+package com.studies.springaws.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,8 +7,8 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
-@Tag(name = "Demo Controller")
-public class DemoController {
+@Tag(name = "Spring AWS Controller")
+public class SpringAWSController {
 
     /*
      * To access swagger use "localhost:8080/swagger-ui/index.html"
