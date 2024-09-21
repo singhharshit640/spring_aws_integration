@@ -27,5 +27,10 @@ public class SpringAWSController {
     public String helloHarshit(){
         return "Hi Harshit! Your demo application is running just fine! Also you just deployed your first backend to AWS cloud! Yay 🎉";
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello from Dockerized Spring Boot app!";
+    }
     
 }
